@@ -238,19 +238,58 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Gallery Section */}
-      <section className="py-20 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-            {galleryItems.map((item, index) => (
-              <div key={index} className="group relative overflow-hidden rounded-2xl aspect-square">
-                <img src={item.image} alt={item.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                  <h3 className="text-white font-semibold text-lg">{item.title}</h3>
-                </div>
-              </div>
-            ))}
+      {/* Image Carousel Section */}
+      <section className="relative w-full h-[70vh] overflow-hidden">
+        {/* Slides */}
+        {carouselItems.map((item, index) => (
+          <div
+            key={index}
+            className={`absolute inset-0 transition-opacity duration-700 ${
+              index === currentSlide ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <img
+              src={item.image}
+              alt={item.title}
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+            <div className="absolute bottom-20 left-0 right-0 text-center">
+              <h3 className="text-3xl md:text-4xl font-light text-white tracking-wide">{item.title}</h3>
+            </div>
           </div>
+        ))}
+
+        {/* Navigation Arrows */}
+        <button
+          onClick={prevSlide}
+          className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors shadow-lg z-10"
+          data-testid="carousel-prev-btn"
+        >
+          <ChevronRight className="rotate-180 text-slate-700" size={24} />
+        </button>
+        <button
+          onClick={nextSlide}
+          className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors shadow-lg z-10"
+          data-testid="carousel-next-btn"
+        >
+          <ChevronRight className="text-slate-700" size={24} />
+        </button>
+
+        {/* Dot Indicators */}
+        <div className="absolute bottom-8 left-0 right-0 flex justify-center gap-2 z-10">
+          {carouselItems.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentSlide(index)}
+              className={`transition-all duration-300 rounded-full ${
+                index === currentSlide
+                  ? "w-8 h-2 bg-amber-500"
+                  : "w-2 h-2 bg-white/70 hover:bg-white"
+              }`}
+              data-testid={`carousel-dot-${index}`}
+            />
+          ))}
         </div>
       </section>
 
