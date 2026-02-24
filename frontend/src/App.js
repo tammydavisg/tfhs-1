@@ -706,6 +706,128 @@ const Testimonials = () => {
   );
 };
 
+// Gallery Page
+const Gallery = () => {
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  const categories = [
+    "All",
+    "Kitchen",
+    "Bathroom", 
+    "Basement",
+    "Flooring",
+    "Organization",
+    "Plumbing",
+    "Electrical",
+    "Roofing & Exterior",
+    "Welding"
+  ];
+
+  // Gallery images - organized by category
+  // Add your images here with format: { image: "URL", title: "Description", category: "Category" }
+  const galleryImages = [
+    // Placeholder structure - replace with your actual images
+    // { image: "image_url", title: "Project Title", category: "Kitchen" },
+  ];
+
+  const filteredImages = activeCategory === "All" 
+    ? galleryImages 
+    : galleryImages.filter(img => img.category === activeCategory);
+
+  return (
+    <div>
+      {/* Hero */}
+      <section className="pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-5xl font-bold text-white mb-6">Our Work</h1>
+          <p className="text-xl text-slate-300 max-w-2xl mx-auto">
+            Browse through our portfolio of completed projects. From kitchens to basements, see the quality craftsmanship we bring to every home.
+          </p>
+        </div>
+      </section>
+
+      {/* Category Filters */}
+      <section className="py-8 bg-white border-b sticky top-20 z-40">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap justify-center gap-3">
+            {categories.map((category) => (
+              <button
+                key={category}
+                onClick={() => setActiveCategory(category)}
+                className={`px-6 py-2 rounded-full font-medium transition-all ${
+                  activeCategory === category
+                    ? "bg-amber-500 text-white shadow-lg"
+                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                }`}
+                data-testid={`gallery-filter-${category.toLowerCase().replace(/\s+/g, '-')}`}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery Grid */}
+      <section className="py-16 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {filteredImages.length > 0 ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filteredImages.map((item, index) => (
+                <div 
+                  key={index} 
+                  className="group relative overflow-hidden rounded-2xl bg-white shadow-md hover:shadow-xl transition-all duration-300"
+                  data-testid={`gallery-item-${index}`}
+                >
+                  <div className="aspect-[4/3] overflow-hidden">
+                    <img 
+                      src={item.image} 
+                      alt={item.title} 
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                    />
+                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="absolute bottom-0 left-0 right-0 p-6">
+                      <span className="inline-block px-3 py-1 bg-amber-500 text-white text-sm rounded-full mb-2">
+                        {item.category}
+                      </span>
+                      <h3 className="text-white font-semibold text-lg">{item.title}</h3>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-20">
+              <div className="w-24 h-24 bg-slate-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Award className="text-slate-400" size={40} />
+              </div>
+              <h3 className="text-2xl font-semibold text-slate-700 mb-3">Gallery Coming Soon</h3>
+              <p className="text-slate-500 max-w-md mx-auto">
+                We're adding photos of our completed projects. Check back soon to see examples of our quality work!
+              </p>
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-20 bg-amber-500">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold text-white mb-6">Ready to Start Your Project?</h2>
+          <p className="text-xl text-amber-100 mb-10">
+            Let us bring the same quality and craftsmanship to your home.
+          </p>
+          <Link to="/contact" className="inline-flex items-center gap-2 bg-white text-amber-500 px-10 py-4 rounded-full font-semibold text-lg hover:bg-slate-100 transition-all">
+            Get Your Free Quote
+            <ChevronRight size={24} />
+          </Link>
+        </div>
+      </section>
+    </div>
+  );
+};
+
 // Contact Page
 const Contact = () => {
   const [formData, setFormData] = useState({
