@@ -174,7 +174,9 @@ const Footer = () => {
 
 // Home Page
 const Home = () => {
-  const galleryItems = [
+  const [currentSlide, setCurrentSlide] = useState(0);
+  
+  const carouselItems = [
     { image: IMAGES.basement, title: "Basement Renovations" },
     { image: IMAGES.kitchen, title: "Kitchen Renovations" },
     { image: IMAGES.framing, title: "Framing, Electrical & Plumbing" },
@@ -182,6 +184,22 @@ const Home = () => {
     { image: IMAGES.garage, title: "Garage Organization" },
     { image: IMAGES.professional, title: "Professional Home Solutions" },
   ];
+
+  // Auto-advance carousel
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % carouselItems.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, [carouselItems.length]);
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % carouselItems.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + carouselItems.length) % carouselItems.length);
+  };
 
   const services = [
     { image: IMAGES.kitchen, title: "Renovations", description: "Transform your home with complete renovations — from basements and kitchens to bathrooms and whole-house remodels tailored to your lifestyle." },
