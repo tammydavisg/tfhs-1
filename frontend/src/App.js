@@ -451,8 +451,7 @@ const Services = () => {
         "Bathroom upgrades: full remodels, tile work, vanities, and improved functionality",
         "Bedroom improvements: flooring, lighting, storage, and layout enhancements",
         "Flooring installation: hardwood, laminate, vinyl, tile, and repairs",
-        "Whole-house remodeling: complete transformations tailored to your lifestyle",
-        "Garage renovations: organization systems, flooring, storage, and functional upgrades"
+        "Whole-house remodeling: complete transformations tailored to your lifestyle"
       ]
     },
     {
