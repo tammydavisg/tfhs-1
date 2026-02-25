@@ -739,7 +739,14 @@ const Gallery = () => {
     // Bathroom
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/02w5rl31_IMG_20260224_204820.jpg", title: "Double Vanity Bathroom", category: "Bathroom" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/uq8n7vy0_IMG_20260224_204821.jpg", title: "Master Bath with Jetted Tub", category: "Bathroom" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/ox67rdvp_IMG_20260224_204801.jpg", title: "Soaking Tub Installation", category: "Bathroom" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/e6vnm1a0_IMG_20260224_204803.jpg", title: "Marble Shower Bathroom Remodel", category: "Bathroom" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/js0ckjnb_IMG_20260224_204806.jpg", title: "Marble Tile Shower with Niches", category: "Bathroom" },
+    // Flooring
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mv2t5azq_IMG_20260224_204752.jpg", title: "Tile Flooring Installation", category: "Flooring" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/xm4ffwiz_IMG_20260224_204759.jpg", title: "Bathroom Tile Floor", category: "Flooring" },
     // Welding
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/igsxtt75_IMG_20260224_204717.png", title: "Custom Stair Gate", category: "Welding" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/aak4oxkv_IMG_20260224_204830.jpg", title: "Commercial Bar - Finished", category: "Welding" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/zgmi8fxe_IMG_20260224_204832.jpg", title: "Commercial Bar - Construction", category: "Welding" },
     // Roofing & Exterior
