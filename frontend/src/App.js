@@ -473,7 +473,7 @@ const Services = () => {
     {
       title: "Roofing & Exterior",
       image: IMAGES.roofing,
-      items: ["Roofing repairs", "Siding repairs", "Gutter maintenance", "Deck or porch fixes", "Fence repair"]
+      items: ["New roofing installation", "Roofing repairs", "Siding installation", "Siding repairs", "Gutter maintenance", "Deck or porch fixes", "Fence repair"]
     },
     {
       title: "Outdoor & Yard",
