@@ -463,7 +463,7 @@ const Services = () => {
     {
       title: "Electrical Services",
       image: IMAGES.basement,
-      items: ["Electrical repairs", "Outlet & switch installation", "Lighting fixtures", "Circuit breaker services", "Safety inspections"]
+      items: ["Electrical repairs", "Electrical upgrades", "Outlet & switch installation", "Lighting fixtures", "Circuit breaker services", "Safety inspections"]
     },
     {
       title: "Interior Repairs",
