@@ -227,10 +227,11 @@ const Home = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
             Your Home Deserves
           </h1>
-          <h2 className="text-4xl md:text-6xl font-bold text-amber-400 mb-8">
+          <h2 className="text-4xl md:text-6xl font-bold text-amber-400 mb-6">
             Expert Care
           </h2>
-          <p className="text-xl text-slate-300 mb-4">Repair. Remodel. Organize.</p>
+          <p className="text-xl text-slate-300 mb-2">Repair. Remodel. Organize.</p>
+          <p className="text-2xl md:text-3xl font-semibold text-white mb-6">Total Family Home Solutions</p>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-10">
             Locally-owned and operated in the Greater Atlanta Area. We provide quality, reliable, and honest home solutions backed by over 15 years of experience.
           </p>
