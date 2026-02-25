@@ -746,9 +746,10 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mv2t5azq_IMG_20260224_204752.jpg", title: "Tile Flooring Installation", category: "Flooring" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/xm4ffwiz_IMG_20260224_204759.jpg", title: "Bathroom Tile Floor", category: "Flooring" },
     // Welding
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/igsxtt75_IMG_20260224_204717.png", title: "Custom Stair Gate", category: "Welding" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/aak4oxkv_IMG_20260224_204830.jpg", title: "Commercial Bar - Finished", category: "Welding" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/zgmi8fxe_IMG_20260224_204832.jpg", title: "Commercial Bar - Construction", category: "Welding" },
+    // Custom Work
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/igsxtt75_IMG_20260224_204717.png", title: "Custom Stair Gate", category: "Organization" },
     // Roofing & Exterior
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/4zxlukgm_IMG_20260224_204823.jpg", title: "Retaining Wall Installation", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/scgaev06_IMG_20260224_204825.jpg", title: "Retaining Wall with Drainage", category: "Roofing & Exterior" },
