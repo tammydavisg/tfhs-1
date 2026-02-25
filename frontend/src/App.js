@@ -732,8 +732,17 @@ const Gallery = () => {
 
   // Gallery images - organized by category
   const galleryImages = [
+    // Kitchen
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/s0kdtjor_IMG_20260224_204809.jpg", title: "Kitchen Backsplash & Cabinets", category: "Kitchen" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/oiw930mp_IMG_20260224_204813.jpg", title: "Complete Kitchen Renovation", category: "Kitchen" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/z4n49wqd_IMG_20260224_204815.jpg", title: "Kitchen Cabinet Installation", category: "Kitchen" },
+    // Bathroom
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/02w5rl31_IMG_20260224_204820.jpg", title: "Double Vanity Bathroom", category: "Bathroom" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/uq8n7vy0_IMG_20260224_204821.jpg", title: "Master Bath with Jetted Tub", category: "Bathroom" },
+    // Welding
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/aak4oxkv_IMG_20260224_204830.jpg", title: "Commercial Bar - Finished", category: "Welding" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/zgmi8fxe_IMG_20260224_204832.jpg", title: "Commercial Bar - Construction", category: "Welding" },
+    // Roofing & Exterior
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/4zxlukgm_IMG_20260224_204823.jpg", title: "Retaining Wall Installation", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/scgaev06_IMG_20260224_204825.jpg", title: "Retaining Wall with Drainage", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/6mc6u3lo_IMG_20260224_204827.jpg", title: "Retaining Wall Foundation", category: "Roofing & Exterior" },
