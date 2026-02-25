@@ -223,7 +223,20 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
         <div className="absolute inset-0 opacity-20" style={{ backgroundImage: `url(${IMAGES.kitchen})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-amber-400 font-medium mb-4 tracking-wider">15+ Years of Trusted Service</p>
+          {/* Badge with ribbon */}
+          <div className="inline-flex items-center mb-6">
+            <div className="relative">
+              <div className="bg-amber-500 text-white px-8 py-2 rounded-full font-medium tracking-wider flex items-center gap-2 shadow-lg">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                </svg>
+                15+ Years of Trusted Service
+              </div>
+              {/* Ribbon tails */}
+              <div className="absolute -left-2 top-1/2 -translate-y-1/2 w-4 h-4 bg-amber-600 transform rotate-45 -z-10"></div>
+              <div className="absolute -right-2 top-1/2 -translate-y-1/2 w-4 h-4 bg-amber-600 transform rotate-45 -z-10"></div>
+            </div>
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
             Your Home Deserves
           </h1>
