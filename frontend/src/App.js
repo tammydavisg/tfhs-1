@@ -732,10 +732,13 @@ const Gallery = () => {
   ];
 
   // Gallery images - organized by category
-  // Add your images here with format: { image: "URL", title: "Description", category: "Category" }
   const galleryImages = [
-    // Placeholder structure - replace with your actual images
-    // { image: "image_url", title: "Project Title", category: "Kitchen" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/aak4oxkv_IMG_20260224_204830.jpg", title: "Commercial Bar - Finished", category: "Welding" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/zgmi8fxe_IMG_20260224_204832.jpg", title: "Commercial Bar - Construction", category: "Welding" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/4zxlukgm_IMG_20260224_204823.jpg", title: "Retaining Wall Installation", category: "Roofing & Exterior" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/scgaev06_IMG_20260224_204825.jpg", title: "Retaining Wall with Drainage", category: "Roofing & Exterior" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/6mc6u3lo_IMG_20260224_204827.jpg", title: "Retaining Wall Foundation", category: "Roofing & Exterior" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/nb7oz995_IMG_20260224_204829.jpg", title: "Backyard Pond Installation", category: "Roofing & Exterior" },
   ];
 
   const filteredImages = activeCategory === "All" 
