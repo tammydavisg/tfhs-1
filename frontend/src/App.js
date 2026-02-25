@@ -48,10 +48,13 @@ const Navigation = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-white shadow-lg" : "bg-transparent"}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <Link to="/" className="flex items-center space-x-2">
-            <span className={`text-2xl font-bold ${scrolled ? "text-slate-800" : "text-white"}`}>
-              Total Family Home Solutions
-            </span>
+          <Link to="/" className="flex items-center">
+            <img 
+              src={IMAGES.logo} 
+              alt="Total Family Home Solutions" 
+              className="h-16 w-auto"
+              data-testid="nav-logo"
+            />
           </Link>
 
           {/* Desktop Navigation */}
