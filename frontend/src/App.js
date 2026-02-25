@@ -129,7 +129,11 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-12">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Total Family Home Solutions</h3>
+            <img 
+              src={IMAGES.logo} 
+              alt="Total Family Home Solutions" 
+              className="h-20 w-auto mb-4 bg-white rounded-lg p-2"
+            />
             <p className="text-slate-400 mb-6">
               Locally-owned and operated in the Greater Atlanta Area. We provide quality, reliable, and honest home solutions backed by over 15 years of experience.
             </p>
