@@ -458,7 +458,7 @@ const Services = () => {
     {
       title: "Plumbing Services",
       image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/bg8ydft6_how-to-install-a-sink-drain-2718789_hero_5078-64538f6f90d545c7af0728e4bf8f894e.jpg",
-      items: ["Plumbing repairs", "Leak detection & repair", "Fixture installation", "Water heater services", "Drain cleaning"]
+      items: ["Plumbing repairs", "Leak detection & repair", "Fixture installation", "Install and repair garbage disposals", "Drain cleaning"]
     },
     {
       title: "Electrical Services",
