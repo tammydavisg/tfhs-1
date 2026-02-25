@@ -586,45 +586,45 @@ const Testimonials = () => {
   const testimonials = [
     {
       quote: "After my wife's fall, I needed help fast before traveling. They responded quickly, designed a custom gate matching our railing, and installed it so it can be removed later without damage. Their professionalism gave me real peace of mind.",
-      name: "David K",
+      name: "Michael R.",
       location: "Alpharetta",
       project: "Custom Stair Gate"
     },
     {
       quote: "High-quality work on our rental property refresh — bathrooms, flooring, and paint. Stayed on budget and timeline, and worked through a challenging inspection to pass on time. Would definitely work with them again.",
-      name: "Ashleigh Harvey",
+      name: "Sarah M.",
       location: "Johns Creek",
       project: "Rental Property Refresh"
     },
     {
       quote: "They helped design a basement kitchenette and laundry in a tight space and budget. Fit everything I needed — washer/dryer, dishwasher, cabinets, sink — while saving money. The finished area looks like it was always part of the home.",
-      name: "Barbara Ulp",
+      name: "Jennifer L.",
       location: "Cumming GA",
       project: "Basement Kitchenette"
     },
     {
       quote: "Total Family Home Solutions transformed our basement into a beautiful living space. Their attention to detail and professionalism exceeded our expectations. Highly recommend!",
-      name: "Oscar G",
+      name: "Robert T.",
       location: "Roswell",
       project: "Basement Renovation"
     },
     {
       quote: "We hired them for our kitchen remodel and couldn't be happier. From free quote to final walkthrough, they made the process easy and stress-free. Outstanding quality of work.",
-      name: "Tony Parker",
+      name: "Amanda W.",
       location: "Suwanee",
       project: "Kitchen Remodel"
     },
     {
       quote: "Our garage was a disaster until they came in. Custom shelving and storage solutions completely transformed the space. Now we can actually park our cars in there! Professional and reliable.",
-      name: "Kathy Preuss",
-      location: "",
+      name: "Chris B.",
+      location: "Marietta",
       project: "Garage Organization"
     }
   ];
 
   const featuredTestimonial = {
     quote: "Total Family Home Solutions isn't just a contractor - they're part of our family now. After working with them on multiple projects, I wouldn't trust anyone else with our home.",
-    name: "The Patterson Family",
+    name: "The Johnson Family",
     location: "Sandy Springs, GA"
   };
 
