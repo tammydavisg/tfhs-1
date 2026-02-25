@@ -223,8 +223,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
         <div className="absolute inset-0 opacity-20" style={{ backgroundImage: `url(${IMAGES.kitchen})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-2xl md:text-3xl font-semibold text-white mb-2 tracking-wide">Total Family Home Solutions</p>
-          <p className="text-amber-400 font-medium mb-6 tracking-wider">15+ Years of Trusted Service</p>
+          <p className="text-amber-400 font-medium mb-4 tracking-wider">15+ Years of Trusted Service</p>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
             Your Home Deserves
           </h1>
