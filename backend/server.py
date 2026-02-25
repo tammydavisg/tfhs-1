@@ -86,7 +86,7 @@ async def get_status_checks():
 
 @api_router.post("/contact", response_model=ContactInquiry)
 async def create_contact_inquiry(input: ContactInquiryCreate):
-    """Submit a contact/quote request form"""
+    """Submit a contact/quote request form and send email notification"""
     inquiry_dict = input.model_dump()
     inquiry_obj = ContactInquiry(**inquiry_dict)
     
@@ -94,6 +94,53 @@ async def create_contact_inquiry(input: ContactInquiryCreate):
     doc['created_at'] = doc['created_at'].isoformat()
     
     _ = await db.contact_inquiries.insert_one(doc)
+    
+    # Send email notification
+    try:
+        sendgrid_api_key = os.environ.get('SENDGRID_API_KEY')
+        sender_email = os.environ.get('SENDER_EMAIL')
+        notification_email = os.environ.get('NOTIFICATION_EMAIL')
+        
+        if sendgrid_api_key and sender_email and notification_email:
+            html_content = f"""
+            <html>
+            <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+                <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+                    <h2 style="color: #d97706; border-bottom: 2px solid #d97706; padding-bottom: 10px;">
+                        New Contact Form Submission
+                    </h2>
+                    <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0;">
+                        <p><strong>Name:</strong> {inquiry_obj.name}</p>
+                        <p><strong>Email:</strong> {inquiry_obj.email}</p>
+                        <p><strong>Phone:</strong> {inquiry_obj.phone or 'Not provided'}</p>
+                        <p><strong>Project Address:</strong> {inquiry_obj.address or 'Not provided'}</p>
+                    </div>
+                    <div style="background-color: #fff; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+                        <h3 style="color: #334155; margin-top: 0;">Project Details:</h3>
+                        <p>{inquiry_obj.message}</p>
+                    </div>
+                    <p style="color: #64748b; font-size: 12px; margin-top: 20px;">
+                        Submitted on {inquiry_obj.created_at.strftime('%B %d, %Y at %I:%M %p')}
+                    </p>
+                </div>
+            </body>
+            </html>
+            """
+            
+            message = Mail(
+                from_email=sender_email,
+                to_emails=notification_email,
+                subject=f"New Quote Request from {inquiry_obj.name}",
+                html_content=html_content
+            )
+            
+            sg = SendGridAPIClient(sendgrid_api_key)
+            sg.send(message)
+            logger.info(f"Email notification sent for contact inquiry from {inquiry_obj.name}")
+    except Exception as e:
+        logger.error(f"Failed to send email notification: {str(e)}")
+        # Don't raise exception - still save the inquiry even if email fails
+    
     return inquiry_obj
 
 @api_router.get("/contact", response_model=List[ContactInquiry])
