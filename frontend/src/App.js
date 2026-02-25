@@ -190,7 +190,6 @@ const Home = () => {
     { image: IMAGES.kitchen, title: "Kitchen Renovations" },
     { image: IMAGES.framing, title: "Framing, Electrical & Plumbing" },
     { image: IMAGES.welding, title: "Welding" },
-    { image: IMAGES.garage, title: "Garage Organization" },
     { image: IMAGES.professional, title: "Professional Home Solutions" },
   ];
 
