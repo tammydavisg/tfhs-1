@@ -447,6 +447,7 @@ const Services = () => {
       image: IMAGES.kitchen,
       items: [
         "Basement finishing, updating, or converting into livable space",
+        "New kitchens and bathrooms in unfinished areas",
         "Kitchen remodeling: modern layouts, updated cabinetry, countertops, and fixtures",
         "Bathroom upgrades: full remodels, tile work, vanities, and improved functionality",
         "Bedroom improvements: flooring, lighting, storage, and layout enhancements",
