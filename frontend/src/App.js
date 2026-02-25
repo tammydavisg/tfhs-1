@@ -45,48 +45,47 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-white shadow-lg" : "bg-white shadow-md"}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-white shadow-lg" : "bg-transparent"}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Centered Logo */}
-        <div className="flex justify-center py-4 border-b border-slate-100">
-          <Link to="/">
+        <div className="flex justify-between items-center h-20">
+          <Link to="/" className="flex items-center">
             <img 
               src={IMAGES.logo} 
               alt="Total Family Home Solutions" 
-              className="h-16 w-auto"
+              className="h-32 w-auto"
               data-testid="nav-logo"
             />
           </Link>
-        </div>
-        {/* Navigation Links */}
-        <div className="flex justify-between items-center h-14">
+
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center justify-center flex-1 space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
-                className={`font-medium uppercase tracking-wide text-sm transition-colors ${
+                className={`font-medium transition-colors ${
                   location.pathname === link.path
                     ? "text-amber-500"
-                    : "text-slate-700 hover:text-amber-500"
+                    : scrolled
+                    ? "text-slate-600 hover:text-amber-500"
+                    : "text-white hover:text-amber-300"
                 }`}
               >
                 {link.label}
               </Link>
             ))}
+            <a
+              href="tel:9432551655"
+              className="bg-amber-500 text-white px-6 py-2 rounded-full font-medium hover:bg-amber-600 transition-colors flex items-center gap-2"
+            >
+              <Phone size={18} />
+              (943) 255-1655
+            </a>
           </div>
-          <a
-            href="tel:9432551655"
-            className="hidden md:flex bg-slate-800 text-white px-6 py-2 rounded font-medium hover:bg-slate-700 transition-colors items-center gap-2"
-          >
-            <Phone size={18} />
-            (943) 255-1655
-          </a>
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden text-slate-800"
+            className={`md:hidden ${scrolled ? "text-slate-800" : "text-white"}`}
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={28} /> : <Menu size={28} />}
