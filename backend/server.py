@@ -9,6 +9,8 @@ from pydantic import BaseModel, Field, ConfigDict, EmailStr
 from typing import List, Optional
 import uuid
 from datetime import datetime, timezone
+from sendgrid import SendGridAPIClient
+from sendgrid.helpers.mail import Mail
 
 
 ROOT_DIR = Path(__file__).parent
