@@ -223,14 +223,11 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
         <div className="absolute inset-0 opacity-20" style={{ backgroundImage: `url(${IMAGES.kitchen})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-amber-400 font-medium mb-4 tracking-wider">15+ Years of Trusted Service</p>
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-            Your Home Deserves
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight">
+            Total Family Home Solutions
           </h1>
-          <h2 className="text-4xl md:text-6xl font-bold text-amber-400 mb-8">
-            Expert Care
-          </h2>
-          <p className="text-xl text-slate-300 mb-4">Repair. Remodel. Organize.</p>
+          <p className="text-amber-400 font-medium mb-4 tracking-wider text-lg">15+ Years of Trusted Service</p>
+          <p className="text-2xl md:text-3xl text-slate-300 mb-4">Repair. Remodel. Organize.</p>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-10">
             Locally-owned and operated in the Greater Atlanta Area. We provide quality, reliable, and honest home solutions backed by over 15 years of experience.
           </p>
