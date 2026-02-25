@@ -472,7 +472,7 @@ const Services = () => {
     },
     {
       title: "Roofing & Exterior",
-      image: IMAGES.roofing,
+      image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/bg8ydft6_how-to-install-a-sink-drain-2718789_hero_5078-64538f6f90d545c7af0728e4bf8f894e.jpg",
       items: ["Roofing repairs", "Siding repairs", "Gutter maintenance", "Deck or porch fixes", "Fence repair"]
     },
     {
