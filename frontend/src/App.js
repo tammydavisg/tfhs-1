@@ -7,6 +7,15 @@ import { useState, useEffect } from "react";
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
 
+// Scroll to top on route change
+const ScrollToTop = () => {
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+  return null;
+};
+
 // Images
 const IMAGES = {
   logo: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/ep2tfkvo_bizlogo2.png",
