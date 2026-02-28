@@ -18,7 +18,7 @@ const ScrollToTop = () => {
 
 // Images
 const IMAGES = {
-  logo: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/ep2tfkvo_bizlogo2.png",
+  logo: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/3e7gwsdj_TFHS%20Logo.png",
   basement: "https://customer-assets.emergentagent.com/job_organize-renovate/artifacts/ekk3ro1a_basement%20pic.webp",
   kitchen: "https://customer-assets.emergentagent.com/job_organize-renovate/artifacts/k3dnlld0_kitchen%20pic.jpg",
   framing: "https://customer-assets.emergentagent.com/job_website-finder-15/artifacts/p5suga3m_45F1B17D-6329-49BA-AC41-2F287FA178D4.jpeg",
