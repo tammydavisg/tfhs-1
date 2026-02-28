@@ -61,7 +61,7 @@ const Navigation = () => {
             <img 
               src={IMAGES.logo} 
               alt="Total Family Home Solutions" 
-              className="h-32 w-auto"
+              className="h-16 md:h-24 w-auto"
               data-testid="nav-logo"
             />
           </Link>
