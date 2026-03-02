@@ -795,6 +795,10 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/scgaev06_IMG_20260224_204825.jpg", title: "Retaining Wall with Drainage", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/6mc6u3lo_IMG_20260224_204827.jpg", title: "Retaining Wall Foundation", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/nb7oz995_IMG_20260224_204829.jpg", title: "Backyard Pond Installation", category: "Roofing & Exterior" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/ga739i3l_IMG_20260301_230110.jpg", title: "Ivy Removal - Before Resodding", category: "Roofing & Exterior" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/j4b1l58h_IMG_20260301_230116.jpg", title: "New Sod Installation - After", category: "Roofing & Exterior" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/pmylfr1a_IMG_20260301_230119.jpg", title: "Yard Resodded - After", category: "Roofing & Exterior" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/kugm55jf_Screenshot_20260301_225515_Chrome.jpg", title: "Complete Yard Restoration - After", category: "Roofing & Exterior" },
   ];
 
   const filteredImages = activeCategory === "All" 
