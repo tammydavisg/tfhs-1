@@ -779,6 +779,8 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/fsrphy89_image000000%20%281%29.jpg", title: "Fire Restoration - After", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/42w1nur4_1772328137859.png", title: "Fire Restoration Complete - After", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/sij7rj8m_1772328039452.png", title: "Fire Restoration with Landscaping - After", category: "Roofing & Exterior" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/tpgm574v_Screenshot_20260301_222710_Chrome.jpg", title: "Deck Lift & Stair Rebuild - Settling Fix", category: "Roofing & Exterior" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/yssm9s9q_Screenshot_20260301_222703_Chrome.jpg", title: "Lower Deck After Lift Repair", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/4zxlukgm_IMG_20260224_204823.jpg", title: "Retaining Wall Installation", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/scgaev06_IMG_20260224_204825.jpg", title: "Retaining Wall with Drainage", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/6mc6u3lo_IMG_20260224_204827.jpg", title: "Retaining Wall Foundation", category: "Roofing & Exterior" },
