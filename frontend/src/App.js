@@ -762,6 +762,11 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/ox67rdvp_IMG_20260224_204801.jpg", title: "Soaking Tub Installation", category: "Bathroom" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/e6vnm1a0_IMG_20260224_204803.jpg", title: "Marble Shower Bathroom Remodel", category: "Bathroom" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/js0ckjnb_IMG_20260224_204806.jpg", title: "Marble Tile Shower with Niches", category: "Bathroom" },
+    // Basement - Water Damage Restoration
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/lx3elqhu_IMG_20260301_223521.jpg", title: "Basement Flood Damage - Before", category: "Basement" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/fywawib8_IMG_20260301_223523.jpg", title: "Water Heater Leak Damage - Before", category: "Basement" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/u28j0b7q_IMG_20260301_223528.jpg", title: "Basement Water Damage - Before", category: "Basement" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/eykn36nj_IMG_20260301_223532.jpg", title: "Flood Damage to Trim - Before", category: "Basement" },
     // Flooring
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mv2t5azq_IMG_20260224_204752.jpg", title: "Tile Flooring Installation", category: "Flooring" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/xm4ffwiz_IMG_20260224_204759.jpg", title: "Bathroom Tile Floor", category: "Flooring" },
