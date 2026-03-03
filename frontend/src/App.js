@@ -771,6 +771,8 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/j0vrcy0y_Screenshot_20260301_222619_Chrome.jpg", title: "Basement Bedroom Restored - After", category: "Basement" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mb2vh6h6_Screenshot_20260301_222624_Chrome.jpg", title: "Basement Living Area - After", category: "Basement" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/2j12uhdb_Screenshot_20260301_222630_Chrome.jpg", title: "Basement with New Flooring - After", category: "Basement" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/5x4y1q2c_20260207_210859.jpg", title: "Basement Kitchenette Installation", category: "Basement" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/581n4dk1_1770257029483.png", title: "Basement Kitchenette Complete", category: "Basement" },
     // Flooring
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mv2t5azq_IMG_20260224_204752.jpg", title: "Tile Flooring Installation", category: "Flooring" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/xm4ffwiz_IMG_20260224_204759.jpg", title: "Bathroom Tile Floor", category: "Flooring" },
@@ -785,6 +787,7 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/zgmi8fxe_IMG_20260224_204832.jpg", title: "Commercial Bar - Construction", category: "Welding" },
     // Custom Work
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/igsxtt75_IMG_20260224_204717.png", title: "Custom Stair Gate", category: "Organization" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/utdz7i5n_IMG_20260228_201411.jpg", title: "Custom Outdoor Shed Build", category: "Organization" },
     // Roofing & Exterior
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/agx1ozxz_IMG_20260228_202457.jpg", title: "Fire Restoration - Before", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/tkafr70p_IMG_20260228_202459.jpg", title: "Fire Damage Roof - Before", category: "Roofing & Exterior" },
@@ -799,6 +802,7 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/tpgm574v_Screenshot_20260301_222710_Chrome.jpg", title: "Deck Lift & Stair Rebuild - Settling Fix", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/yssm9s9q_Screenshot_20260301_222703_Chrome.jpg", title: "Lower Deck After Lift Repair", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/4zxlukgm_IMG_20260224_204823.jpg", title: "Retaining Wall Installation", category: "Roofing & Exterior" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/o2yogm51_1771625821760.png", title: "Retaining Wall with Landscaping - After", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/scgaev06_IMG_20260224_204825.jpg", title: "Retaining Wall with Drainage", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/6mc6u3lo_IMG_20260224_204827.jpg", title: "Retaining Wall Foundation", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/nb7oz995_IMG_20260224_204829.jpg", title: "Backyard Pond Installation", category: "Roofing & Exterior" },
