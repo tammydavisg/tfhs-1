@@ -786,8 +786,10 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/a2nptgy4_IMG_20260301_232149.jpg", title: "Double Tap Panel Issue - Before", category: "Electrical" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/nd2m7ulm_1772653300326.png", title: "Double Tap Fixed & 2nd Panel Added - After", category: "Electrical" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/a6l7wem9_1772423134968.png", title: "Recessed Lighting - Ceiling Repair & Repaint", category: "Electrical" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/atcmi28q_1772655991916.png", title: "Dining Room Light Fixture Installation", category: "Electrical" },
     // Plumbing
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/qbxvmvg8_1772480262422.png", title: "Garbage Disposal Installation", category: "Plumbing" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/28ggd7uz_1772656241970.png", title: "Bathroom Faucet Installation", category: "Plumbing" },
     // Welding
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/aak4oxkv_IMG_20260224_204830.jpg", title: "Commercial Bar - Finished", category: "Welding" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/zgmi8fxe_IMG_20260224_204832.jpg", title: "Commercial Bar - Construction", category: "Welding" },
