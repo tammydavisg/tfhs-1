@@ -855,7 +855,9 @@ const Gallery = () => {
                 key={category}
                 onClick={() => {
                   setActiveCategory(category);
-                  document.getElementById('gallery-grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  setTimeout(() => {
+                    window.scrollTo({ top: document.getElementById('gallery-grid').offsetTop - 150, behavior: 'smooth' });
+                  }, 100);
                 }}
                 className={`px-6 py-2 rounded-full font-medium transition-all ${
                   activeCategory === category
