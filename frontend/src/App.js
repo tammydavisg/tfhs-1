@@ -756,6 +756,7 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/s0kdtjor_IMG_20260224_204809.jpg", title: "Kitchen Backsplash & Cabinets", category: "Kitchen" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/oiw930mp_IMG_20260224_204813.jpg", title: "Complete Kitchen Renovation", category: "Kitchen" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/z4n49wqd_IMG_20260224_204815.jpg", title: "Kitchen Cabinet Installation", category: "Kitchen" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/gp0pbevl_1772653909180.png", title: "Basement Kitchenette & Laundry", category: "Kitchen" },
     // Bathroom
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/02w5rl31_IMG_20260224_204820.jpg", title: "Double Vanity Bathroom", category: "Bathroom" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/uq8n7vy0_IMG_20260224_204821.jpg", title: "Master Bath with Jetted Tub", category: "Bathroom" },
@@ -773,6 +774,7 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/j0vrcy0y_Screenshot_20260301_222619_Chrome.jpg", title: "Basement Bedroom Restored - After", category: "Basement" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mb2vh6h6_Screenshot_20260301_222624_Chrome.jpg", title: "Basement Living Area - After", category: "Basement" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/2j12uhdb_Screenshot_20260301_222630_Chrome.jpg", title: "Basement with New Flooring - After", category: "Basement" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/gp0pbevl_1772653909180.png", title: "Basement Kitchenette & Laundry Complete", category: "Basement" },
     // Flooring
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mv2t5azq_IMG_20260224_204752.jpg", title: "Tile Flooring Installation", category: "Flooring" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/xm4ffwiz_IMG_20260224_204759.jpg", title: "Bathroom Tile Floor", category: "Flooring" },
