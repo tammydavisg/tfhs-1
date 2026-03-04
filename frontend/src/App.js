@@ -777,6 +777,10 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/fywawib8_IMG_20260301_223523.jpg", title: "Water Heater Leak Damage - Before", category: "Restoration" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/u28j0b7q_IMG_20260301_223528.jpg", title: "Basement Water Damage - Before", category: "Restoration" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/eykn36nj_IMG_20260301_223532.jpg", title: "Flood Damage to Trim - Before", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/ha12ms9u_Screenshot_20260301_222540_Chrome.jpg", title: "Basement Flood Restoration - After", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/j0vrcy0y_Screenshot_20260301_222619_Chrome.jpg", title: "Basement Bedroom Restored - After", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mb2vh6h6_Screenshot_20260301_222624_Chrome.jpg", title: "Basement Living Area Restored - After", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/2j12uhdb_Screenshot_20260301_222630_Chrome.jpg", title: "Basement New Flooring - After", category: "Restoration" },
     // Flooring
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mv2t5azq_IMG_20260224_204752.jpg", title: "Tile Flooring Installation", category: "Flooring" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/xm4ffwiz_IMG_20260224_204759.jpg", title: "Bathroom Tile Floor", category: "Flooring" },
