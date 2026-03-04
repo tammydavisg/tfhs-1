@@ -762,6 +762,8 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/ox67rdvp_IMG_20260224_204801.jpg", title: "Soaking Tub Installation", category: "Bathroom" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/e6vnm1a0_IMG_20260224_204803.jpg", title: "Marble Shower Bathroom Remodel", category: "Bathroom" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/js0ckjnb_IMG_20260224_204806.jpg", title: "Marble Tile Shower with Niches", category: "Bathroom" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/gh2auzs2_1772506087729.png", title: "Fire Restoration - Bathroom After", category: "Bathroom" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/svmzap85_1772506101999.png", title: "Fire Restoration - Tub Surround After", category: "Bathroom" },
     // Basement - Water Damage Restoration
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/lx3elqhu_IMG_20260301_223521.jpg", title: "Basement Flood Damage - Before", category: "Basement" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/fywawib8_IMG_20260301_223523.jpg", title: "Water Heater Leak Damage - Before", category: "Basement" },
@@ -771,13 +773,14 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/j0vrcy0y_Screenshot_20260301_222619_Chrome.jpg", title: "Basement Bedroom Restored - After", category: "Basement" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mb2vh6h6_Screenshot_20260301_222624_Chrome.jpg", title: "Basement Living Area - After", category: "Basement" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/2j12uhdb_Screenshot_20260301_222630_Chrome.jpg", title: "Basement with New Flooring - After", category: "Basement" },
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/5x4y1q2c_20260207_210859.jpg", title: "Basement Kitchenette Installation", category: "Basement" },
     // Flooring
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mv2t5azq_IMG_20260224_204752.jpg", title: "Tile Flooring Installation", category: "Flooring" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/xm4ffwiz_IMG_20260224_204759.jpg", title: "Bathroom Tile Floor", category: "Flooring" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/nqfjdgax_1772506542134.png", title: "Fire Restoration - Hardwood Floor After", category: "Flooring" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/8bx3801l_1772505705308.png", title: "Fire Restoration - Master Bedroom Floor After", category: "Flooring" },
     // Electrical
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/a2nptgy4_IMG_20260301_232149.jpg", title: "Double Tap Panel Issue - Before", category: "Electrical" },
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/ckjg1dje_1772307434695.png", title: "Double Tap Fixed & 2nd Panel Added", category: "Electrical" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/nd2m7ulm_1772653300326.png", title: "Double Tap Fixed & 2nd Panel Added - After", category: "Electrical" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/a6l7wem9_1772423134968.png", title: "Recessed Lighting - Ceiling Repair & Repaint", category: "Electrical" },
     // Plumbing
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/qbxvmvg8_1772480262422.png", title: "Garbage Disposal Installation", category: "Plumbing" },
@@ -794,10 +797,6 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/fsrphy89_image000000%20%281%29.jpg", title: "Fire Restoration - After", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/42w1nur4_1772328137859.png", title: "Fire Restoration Complete - After", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/sij7rj8m_1772328039452.png", title: "Fire Restoration with Landscaping - After", category: "Roofing & Exterior" },
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/nqfjdgax_1772506542134.png", title: "Fire Restoration - Attic Room After", category: "Roofing & Exterior" },
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/gh2auzs2_1772506087729.png", title: "Fire Restoration - Bathroom After", category: "Roofing & Exterior" },
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/svmzap85_1772506101999.png", title: "Fire Restoration - Tub Surround After", category: "Roofing & Exterior" },
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/8bx3801l_1772505705308.png", title: "Fire Restoration - Master Bedroom After", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/tpgm574v_Screenshot_20260301_222710_Chrome.jpg", title: "Deck Lift & Stair Rebuild - Settling Fix", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/yssm9s9q_Screenshot_20260301_222703_Chrome.jpg", title: "Lower Deck After Lift Repair", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/4zxlukgm_IMG_20260224_204823.jpg", title: "Retaining Wall Installation", category: "Roofing & Exterior" },
