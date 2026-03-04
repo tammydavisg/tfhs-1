@@ -777,15 +777,6 @@ const Gallery = () => {
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/fywawib8_IMG_20260301_223523.jpg", title: "Water Heater Leak Damage - Before", category: "Restoration" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/u28j0b7q_IMG_20260301_223528.jpg", title: "Basement Water Damage - Before", category: "Restoration" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/eykn36nj_IMG_20260301_223532.jpg", title: "Flood Damage to Trim - Before", category: "Restoration" },
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/ha12ms9u_Screenshot_20260301_222540_Chrome.jpg", title: "Basement Flood Restoration - After", category: "Restoration" },
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/j0vrcy0y_Screenshot_20260301_222619_Chrome.jpg", title: "Basement Bedroom Restored - After", category: "Restoration" },
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mb2vh6h6_Screenshot_20260301_222624_Chrome.jpg", title: "Basement Living Area Restored - After", category: "Restoration" },
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/2j12uhdb_Screenshot_20260301_222630_Chrome.jpg", title: "Basement New Flooring - After", category: "Restoration" },
-    // Fire Restoration - Bathroom & Flooring
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/gh2auzs2_1772506087729.png", title: "Fire Restoration - Bathroom After", category: "Restoration" },
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/svmzap85_1772506101999.png", title: "Fire Restoration - Tub Surround After", category: "Restoration" },
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/nqfjdgax_1772506542134.png", title: "Fire Restoration - Hardwood Floor After", category: "Restoration" },
-    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/8bx3801l_1772505705308.png", title: "Fire Restoration - Master Bedroom Floor After", category: "Restoration" },
     // Flooring
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mv2t5azq_IMG_20260224_204752.jpg", title: "Tile Flooring Installation", category: "Flooring" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/xm4ffwiz_IMG_20260224_204759.jpg", title: "Bathroom Tile Floor", category: "Flooring" },
@@ -803,13 +794,27 @@ const Gallery = () => {
     // Custom Work
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/igsxtt75_IMG_20260224_204717.png", title: "Custom Stair Gate", category: "Organization" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/utdz7i5n_IMG_20260228_201411.jpg", title: "Custom Outdoor Shed Build", category: "Organization" },
-    // Roofing & Exterior
+    // Fire Restoration (Brick House)
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/agx1ozxz_IMG_20260228_202457.jpg", title: "Fire Restoration - Before", category: "Restoration" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/tkafr70p_IMG_20260228_202459.jpg", title: "Fire Damage Roof - Before", category: "Restoration" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/fgom4mho_IMG_20260228_202501.jpg", title: "Fire Damage Structure - Before", category: "Restoration" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/fsrphy89_image000000%20%281%29.jpg", title: "Fire Restoration - After", category: "Restoration" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/42w1nur4_1772328137859.png", title: "Fire Restoration Complete - After", category: "Restoration" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/sij7rj8m_1772328039452.png", title: "Fire Restoration with Landscaping - After", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/gh2auzs2_1772506087729.png", title: "Fire Restoration - Bathroom After", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/svmzap85_1772506101999.png", title: "Fire Restoration - Tub Surround After", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/nqfjdgax_1772506542134.png", title: "Fire Restoration - Hardwood Floor After", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/8bx3801l_1772505705308.png", title: "Fire Restoration - Master Bedroom Floor After", category: "Restoration" },
+    // Water Damage Restoration
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/lx3elqhu_IMG_20260301_223521.jpg", title: "Basement Flood Damage - Before", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/fywawib8_IMG_20260301_223523.jpg", title: "Water Heater Leak Damage - Before", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/u28j0b7q_IMG_20260301_223528.jpg", title: "Basement Water Damage - Before", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/eykn36nj_IMG_20260301_223532.jpg", title: "Flood Damage to Trim - Before", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/ha12ms9u_Screenshot_20260301_222540_Chrome.jpg", title: "Basement Flood Restoration - After", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/j0vrcy0y_Screenshot_20260301_222619_Chrome.jpg", title: "Basement Bedroom Restored - After", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/mb2vh6h6_Screenshot_20260301_222624_Chrome.jpg", title: "Basement Living Area Restored - After", category: "Restoration" },
+    { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/2j12uhdb_Screenshot_20260301_222630_Chrome.jpg", title: "Basement New Flooring - After", category: "Restoration" },
+    // Roofing & Exterior
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/tpgm574v_Screenshot_20260301_222710_Chrome.jpg", title: "Deck Lift & Stair Rebuild - Settling Fix", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/yssm9s9q_Screenshot_20260301_222703_Chrome.jpg", title: "Lower Deck After Lift Repair", category: "Roofing & Exterior" },
     { image: "https://customer-assets.emergentagent.com/job_github-export-6/artifacts/4zxlukgm_IMG_20260224_204823.jpg", title: "Retaining Wall Installation", category: "Roofing & Exterior" },
