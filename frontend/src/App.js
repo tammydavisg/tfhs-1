@@ -882,11 +882,11 @@ const Gallery = () => {
                   className="group relative overflow-hidden rounded-2xl bg-white shadow-md hover:shadow-xl transition-all duration-300"
                   data-testid={`gallery-item-${index}`}
                 >
-                  <div className="aspect-[4/3] overflow-hidden">
+                  <div className="aspect-square overflow-hidden bg-slate-100">
                     <img 
                       src={item.image} 
                       alt={item.title} 
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                      className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" 
                     />
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
