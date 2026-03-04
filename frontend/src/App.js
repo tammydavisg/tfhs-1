@@ -837,7 +837,10 @@ const Gallery = () => {
             {categories.map((category) => (
               <button
                 key={category}
-                onClick={() => setActiveCategory(category)}
+                onClick={() => {
+                  setActiveCategory(category);
+                  document.getElementById('gallery-grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }}
                 className={`px-6 py-2 rounded-full font-medium transition-all ${
                   activeCategory === category
                     ? "bg-amber-500 text-white shadow-lg"
@@ -853,7 +856,7 @@ const Gallery = () => {
       </section>
 
       {/* Gallery Grid */}
-      <section className="py-16 bg-slate-50">
+      <section id="gallery-grid" className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {filteredImages.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
